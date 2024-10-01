@@ -20,6 +20,8 @@
     background: hsla(0, 3%, 7%, 0.807);
 }
 .navbar .logo{
+ user-select: none;
+ text-decoration: none;
  display: inline-block;
  margin-left: 50px;
  margin-top: 15px;
@@ -66,30 +68,59 @@
 
 .container .center{
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: Roboto;
-    user-select: none;
+    
 }
 
 .center h1{
-    color: white;
-    font-size: 40px;
+    color: #ffffffc5;
+    font-size: 50px;
     font-weight: bold;
     width: 900px;
     text-align: center;
 }
 
 .center h2{
-    color: white;
-    font-size: 25px;
+    color: #ffffffad;
+    font-size: 30px;
     font-weight: bold;
-    width: 900px;
-    margin-top: 35px;
+    font-family: Helvetica;
+    width: 885px;
+    margin-top: 30px;
     text-align: center;
 }
 
+.center h3{
+    color: #ffffffad;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica;
+    width: 885px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.center h4{
+    color: #ffffffad;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica;
+    width: 885px;
+    margin-top: 30px;
+    text-align: center;
+}
+.center h5{
+    color: #ffffffad;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica;
+    width: 885px;
+    margin-top: 35px;
+    text-align: center;
+}
 
 .center .buttons{
     margin: 35px 280px;
